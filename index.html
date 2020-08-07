@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Slider and Modal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          src="https://randomuser.me/api/portraits/women/76.jpg"
+          alt="First Woman"
+        />
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-3x"></i>
+      </button>
+
+      <h1>Landing Page</h1>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde sit a,
+        corrupti harum atque temporibus est architecto doloremque sequi rem
+        impedit perspiciatis officiis?
+      </p>
+
+      <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div class="container">
+      <h2>What is this page about?</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem amet fugit
+        et quaerat suscipit eius harum perferendis, labore commodi voluptates
+        nesciunt sequi ut debitis dolores, magnam praesentium culpa sunt
+        explicabo facere. Veritatis molestiae voluptas, maiores dicta possimus
+        eaque id quia?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        dignissimos accusamus magnam quae tenetur eum in minus saepe excepturi
+        assumenda molestiae quis, dolor repellendus soluta earum eaque illo
+        quisquam officia laborum atque neque. Voluptatibus, explicabo ducimus
+        neque vero cupiditate praesentium? Non soluta dolor dignissimos nobis,
+        iure facilis corrupti nulla excepturi nemo eaque maiores quia qui
+        magnam.
+      </p>
+
+      <h2>Tell Me More</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab,
+        quod nam a cum consectetur impedit facere saepe placeat atque explicabo
+        repellat inventore reiciendis, dolor quibusdam dolore unde doloremque!
+        Aliquam assumenda officia autem, dolorum voluptatum maxime qui ipsam
+        error sapiente nesciunt iste natus recusandae veritatis optio magnam
+        necessitatibus quisquam neque velit quo ex, unde voluptatem.
+        Consequuntur nisi earum quasi maxime. Eos, tenetur. Minus molestias
+        veritatis pariatur dolorem, placeat quia sed itaque ullam libero
+        possimus perspiciatis esse explicabo animi sint quod! Rem, animi
+        quisquam. Lorem, ipsum dolor. Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Nulla itaque quisquam earum quaerat ex amet animi,
+        mollitia libero consequuntur porro suscipit facilis corrupti tenetur
+        ipsam sed molestias voluptatum culpa consequatur nihil saepe omnis.
+        Repudiandae?
+      </p>
+
+      <h2>Benefits</h2>
+      <ul>
+        <li>Lifetime Access</li>
+        <li>30 Days or Money Back</li>
+        <li>Tailored customer support</li>
+        <li>Disclaimers</li>
+      </ul>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi pariatur
+        officia doloribus nihil eligendi placeat neque laudantium, assumenda
+        laborum cum libero ducimus porro, beatae sunt harum error soluta eveniet
+        dolores odio consequatur earum similique dolorem. Voluptate ducimus,
+        itaque cum sequi, rerum, quidem maxime consequatur sapiente adipisci
+        quod distinctio. Earum dignissimos, labore voluptates autem
+        reprehenderit sed repellat atque non nulla iure culpa similique officia
+        vero harum consequuntur. Magnam voluptate aperiam voluptatibus
+        excepturi, molestiae illum at eveniet quia facilis enim ipsum eaque
+        autem provident nostrum? A qui velit quaerat. Distinctio excepturi
+        placeat quos doloremque voluptatum, dolores, culpa quis nesciunt quam
+        quisquam recusandae aliquam quo facilis ipsam officia officiis.
+        Voluptates alias cumque qui, fugit totam eveniet laboriosam ad impedit?
+        Porro ab dolores atque. Inventore autem porro nulla ab aperiam. At a
+        quaerat dolorum eaque delectus ullam nisi architecto!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, facere.
+        Labore rem vero inventore vitae assumenda eaque? Unde eligendi assumenda
+        officia repellendus, sapiente, excepturi aspernatur, sequi praesentium
+        iste magnam quae ullam libero cumque accusantium quos dolorum molestias
+        minima velit perspiciatis voluptatibus natus beatae. Quibusdam
+        voluptates accusantium nulla laborum, hic ea doloribus labore fugit
+        architecto rerum veritatis distinctio corrupti aliquid sequi cum odio
+        facere asperiores recusandae dolores? Tempore praesentium illum
+        voluptate ea unde beatae tenetur obcaecati?
+      </p>
+    </div>
+
+    <!--Modal-->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign up</h3>
+        </div>
+        <div class="modal-content">
+          <p>
+            Register to get offers and other member-exclusive discounts,
+            including your own Visa MasterCard of Supremacy!
+          </p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter a password"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="confirm">Confirm Password</label>
+              <input
+                type="confirm"
+                id="confirm"
+                placeholder="Enter your password again"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="sec-question">Security Question</label>
+              <input
+                type="sec-question"
+                id="sec-question"
+                placeholder="Enter a security question of your choice"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="sec-answer">Security Answer</label>
+              <input
+                type="sec-answer"
+                id="sec-answer"
+                placeholder="Enter the answer to your security question. This is case sensitive."
+                class="form-input"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
